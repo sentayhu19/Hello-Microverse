@@ -36,7 +36,7 @@ npm install --save-dev hint@6.x
 ```
 ##### For validation detection using Webhint Run
 ```
-npx hint .
+npx hint . 
 
 ### Prerequisites
 ##VSCode or any other equivalent code editor
