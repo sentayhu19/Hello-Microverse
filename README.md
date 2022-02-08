@@ -11,18 +11,32 @@
 -Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 -Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
-## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+# Getting Started
 
+#### Cloning the project
+```
+git clone  https://github.com/sentayhu19/Hello-Microverse <Your-Build-Directory>
+```
 
-## Getting Started
+## Getting packages and debuging with Stylelint
+```
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
+##### For validation detection using Stylelint Run
+```
+npx stylelint "**/*.{css,scss}"
+```
+##### from parent source directory
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+## Getting packages and debuging with Webhint
+```
+npm init -y
+npm install --save-dev hint@6.x
+```
+##### For validation detection using Webhint Run
+```
+npx hint .
 
 ### Prerequisites
 ##VSCode or any other equivalent code editor
