@@ -1,6 +1,6 @@
 # Hello-Microverse
 
-> This is a Hello World excercise, with no complex coding.
+> This is a Hello World excercise, simple coding coding.
 
 This is to learn and master github flow and linters learned at Microverse
 
